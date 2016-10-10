@@ -610,7 +610,7 @@ cat("\n bestEpsilon =",bestEpsilon)
 
     
      bestF1 = 0.64
-     bestEpsilon = 1.397136e-18
+     bestEpsilon = 1.597136e-18
 
 Finally, let's calculate the number of anomalous and normal servers.'
 
@@ -630,7 +630,7 @@ table(X$outliers)
 
     
     FALSE  TRUE 
-      883   117
+      869   131
 
 
 #### Summary
