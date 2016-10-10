@@ -313,10 +313,10 @@ For cross-validation, let's use `F1 score`, which uses `precision` and `recall`.
 **tp** is the number of true positives: the ground truth label says it's an
 anomaly and our algorithm correctly classied it as an anomaly.
 
- **fp** is the number of false positives: the ground truth label says it's not
+**fp** is the number of false positives: the ground truth label says it's not
 an anomaly, but our algorithm incorrectly classied it as an anomaly.
 
- **fn** is the number of false negatives: the ground truth label says it's an
+**fn** is the number of false negatives: the ground truth label says it's an
 anomaly, but our algorithm incorrectly classied it as not being anoma-
 lous.
 
@@ -419,7 +419,7 @@ X%>%ggplot(aes(x=`Latency (ms)`,y=`Throughput (mb/s)`))+
 
 As we can see from the figure, the results of our model make sense and now we can use it for data with any number of features.
 
-###  Part 4: Multidimensional Outliers 
+###  Multidimensional Outliers 
 
 We will now use the code from the previous part on a more realistic and much harder dataset. In this dataset, each example is described by 11 features, capturing many more
 properties of our compute servers. You can download the RData from <a href="data2.RData">here</a>..
